@@ -1,4 +1,4 @@
-require 'pry'
+s
 class Dog
 
   @@all =[]
@@ -10,7 +10,7 @@ class Dog
       save
       
     end 
-    
+    binding.pry
          def self.all 
       @@all
     end 
